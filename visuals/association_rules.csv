@@ -1,0 +1,51 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski
+frozenset({'Road_Surface_Conditions'}),frozenset({'Light_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Light_Conditions'}),frozenset({'Road_Surface_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weather_Conditions'}),frozenset({'Light_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Light_Conditions'}),frozenset({'Weather_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Light_Conditions'}),frozenset({'Accident_Severity'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Accident_Severity'}),frozenset({'Light_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weather_Conditions'}),frozenset({'Road_Surface_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Road_Surface_Conditions'}),frozenset({'Weather_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Road_Surface_Conditions'}),frozenset({'Accident_Severity'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Accident_Severity'}),frozenset({'Road_Surface_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weather_Conditions'}),frozenset({'Accident_Severity'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Accident_Severity'}),frozenset({'Weather_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Road_Surface_Conditions'})",frozenset({'Light_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Road_Surface_Conditions'})",frozenset({'Weather_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Light_Conditions'})",frozenset({'Road_Surface_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Road_Surface_Conditions'}),"frozenset({'Weather_Conditions', 'Light_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weather_Conditions'}),"frozenset({'Light_Conditions', 'Road_Surface_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Light_Conditions'}),"frozenset({'Weather_Conditions', 'Road_Surface_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Road_Surface_Conditions'})",frozenset({'Accident_Severity'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Road_Surface_Conditions', 'Accident_Severity'})",frozenset({'Light_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Accident_Severity'})",frozenset({'Road_Surface_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Road_Surface_Conditions'}),"frozenset({'Light_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Light_Conditions'}),"frozenset({'Road_Surface_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Accident_Severity'}),"frozenset({'Light_Conditions', 'Road_Surface_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Light_Conditions'})",frozenset({'Accident_Severity'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Accident_Severity'})",frozenset({'Light_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Accident_Severity'})",frozenset({'Weather_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weather_Conditions'}),"frozenset({'Light_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Light_Conditions'}),"frozenset({'Weather_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Accident_Severity'}),"frozenset({'Weather_Conditions', 'Light_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Road_Surface_Conditions'})",frozenset({'Accident_Severity'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Accident_Severity'})",frozenset({'Road_Surface_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Road_Surface_Conditions', 'Accident_Severity'})",frozenset({'Weather_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weather_Conditions'}),"frozenset({'Road_Surface_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Road_Surface_Conditions'}),"frozenset({'Weather_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Accident_Severity'}),"frozenset({'Weather_Conditions', 'Road_Surface_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Weather_Conditions', 'Road_Surface_Conditions'})",frozenset({'Accident_Severity'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Road_Surface_Conditions', 'Accident_Severity'})",frozenset({'Light_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Road_Surface_Conditions', 'Accident_Severity'})",frozenset({'Weather_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Light_Conditions', 'Accident_Severity'})",frozenset({'Road_Surface_Conditions'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Road_Surface_Conditions'})","frozenset({'Light_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Road_Surface_Conditions'})","frozenset({'Weather_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Road_Surface_Conditions', 'Accident_Severity'})","frozenset({'Weather_Conditions', 'Light_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Light_Conditions'})","frozenset({'Road_Surface_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Weather_Conditions', 'Accident_Severity'})","frozenset({'Light_Conditions', 'Road_Surface_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+"frozenset({'Light_Conditions', 'Accident_Severity'})","frozenset({'Weather_Conditions', 'Road_Surface_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Road_Surface_Conditions'}),"frozenset({'Weather_Conditions', 'Light_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Weather_Conditions'}),"frozenset({'Light_Conditions', 'Road_Surface_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Light_Conditions'}),"frozenset({'Weather_Conditions', 'Road_Surface_Conditions', 'Accident_Severity'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'Accident_Severity'}),"frozenset({'Light_Conditions', 'Weather_Conditions', 'Road_Surface_Conditions'})",1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
